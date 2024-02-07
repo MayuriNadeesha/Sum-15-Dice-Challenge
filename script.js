@@ -17,11 +17,11 @@ function main(){
 
         if(Total<15){
             document.getElementById("mainResult").innerHTML="Generate another Dice..!";
-        }else if(Total==15){
+        }else if(Total==21){
             document.getElementById("mainResult").innerHTML="You've won !!";
             alert("Congratulations..!");
             document.getElementById("restartBtn").style.display="block";
-        }else if(Total>15){
+        }else if(Total>21){
             document.getElementById("mainResult").innerHTML="You Lost..!!";
             alert("Lost :( click restart to play again");
             document.getElementById("restartBtn").style.display="block";
